@@ -32,17 +32,20 @@ const logTime = (days, name) => {
 console.log(`${name}'s time to train is: ${days} days`);
 };
 
-// Output
+// Variables
 const event = getRandEvent();
 const days = getTrainingDays(event);
 const name = 'Nala';
 
+// Output
 logEvent(event, name);
 logTime(days, name);
 
+// Variables -- Test 2
 const event2 = getRandEvent();
 const days2 = getTrainingDays(event2);
 const name2 = 'Warren';
 
+// Output -- Test 2
 logEvent(event2, name2);
 logTime(days2, name2);
